@@ -1,0 +1,45 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    width:70vw;
+}
+.grid-element{
+    margin:1vw;
+}
+.button{
+    background-color:yellow;
+    color:brown;
+    font-size: 10vw;
+    width:20vw;
+    height:20vw;
+    border-radius: 2vw;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}
+.button:hover{
+    background-color: dodgerblue;
+    color:white;
+}
+.but{
+    background-color: white;
+    font-size: 2vw;
+    width:20vw;
+    height:4vw;
+    margin:2vw;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1vw;
+    font-weight: bolder;
+}
+.but:hover{
+    background-color: green;
+    color:orange;
+}
+p{
+    font-size: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
